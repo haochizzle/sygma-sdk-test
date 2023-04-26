@@ -1,0 +1,329 @@
+{
+  "UI": { "transactionAutoUpdateInterval": 5000, "nftTokenPage": true },
+  "SYGMA": {
+    "chains": [
+      {
+        "domainId": "0",
+        "decimals": 18,
+        "nativeTokenSymbol": "ETH",
+        "type": "Ethereum",
+        "bridgeAddress": "0xb36C801f644908bAAe89b7C28ad57Af18638A6a9",
+        "feeRouterAddress": "0x6CAf9103c8cE3c9C347D57Aee39E8e66e43091b8",
+        "erc20HandlerAddress": "0xAf2DB8059Bd69ba9Ac4c59D25de1C87931e62448",
+        "erc721HandlerAddress": "0x201cBF8199DbF982c05185869FE063A744d797e2",
+        "tokens": [
+          {
+            "address": "0x3D151A97A446C9ea6893038e7C0db73466f3f3af",
+            "decimals": 18,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "type": "erc20",
+            "symbol": "ERC20TST",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20TST"
+          },
+          {
+            "address": "0x3F9A68fF29B3d86a6928C44dF171A984F6180009",
+            "decimals": 18,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+            "type": "erc20",
+            "symbol": "ERC20LRTest",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20LRTest"
+          },
+          {
+            "address": "0xe9d3b1433bACDfC26ee097629D238A41BF6dA3aE",
+            "decimals": 0,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+            "type": "erc721",
+            "symbol": "ERC721TST",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC721TST"
+          },
+          {
+            "address": "0xB376b0Ee6d8202721838e76376e81eEc0e2FE864",
+            "decimals": 18,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
+            "type": "erc20",
+            "symbol": "GPHA",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "GPHA"
+          }
+        ],
+        "confirmations": 5,
+        "feeHandlers": [
+          {
+            "address": "0x81bbFC4aC5E731d9EAdb749a7e7A6E973CF7E399",
+            "type": "basic"
+          },
+          {
+            "address": "0xF5703Fcf2bfFC33625857D8ae8994b3260AA3c1f",
+            "type": "oracle"
+          },
+          {
+            "address": "0xFf6312a3D0022F75d2Bd92CF250B14A5Ea915945",
+            "type": "basic"
+          }
+        ],
+        "networkId": 5,
+        "name": "Goerli",
+        "rpcUrl": "https://eth-goerli.g.alchemy.com/v2/wkF4rGEBspanIYTCzspMVFbOPjHP_IhL",
+        "blockExplorer": "https://goerli.etherscan.io"
+      },
+      {
+        "domainId": "1",
+        "decimals": 18,
+        "nativeTokenSymbol": "MATIC",
+        "type": "Ethereum",
+        "bridgeAddress": "0x37313Ab1701fCfC5050E84B4E7f841abB588a1db",
+        "feeRouterAddress": "0x2F14a0Ffc2FE72E55e18b0f04De2582237065a51",
+        "erc20HandlerAddress": "0x1B3c399E65E9d414EA77ee88253c7dD180C77805",
+        "erc721HandlerAddress": "0x8b10Ee8aecc9A586b7bcc89C06e1f9B9BD65328b",
+        "tokens": [
+          {
+            "address": "0x2465c8F84bDB7130ACDf31d694bc9c820F70ac06",
+            "decimals": 18,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "type": "erc20",
+            "symbol": "ERC20TST",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20TST"
+          },
+          {
+            "address": "0xFC072Aa8ABB5646aFD0c22994bdE30dB57B1BF1C",
+            "decimals": 18,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+            "type": "erc20",
+            "symbol": "ERC20LRTest",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20LRTest"
+          },
+          {
+            "address": "0x4beD477d1f5D338855A521ABa2A88c9a15e2eA5d",
+            "decimals": 0,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+            "type": "erc721",
+            "symbol": "ERC721TST",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC721TST"
+          }
+        ],
+        "confirmations": 5,
+        "feeHandlers": [
+          {
+            "address": "0x2fD80b28DbA645A23d8Fb83EC428468a95F0Aa7a",
+            "type": "basic"
+          },
+          {
+            "address": "0x22B21aaf747C94314c8040eB28557828f81aCE49",
+            "type": "oracle"
+          }
+        ],
+        "networkId": 80001,
+        "name": "Mumbai",
+        "rpcUrl": "https://polygon-mumbai.g.alchemy.com/v2/LquJll0ZH2yYtHx74WScXNSXAj8C1DsP",
+        "blockExplorer": "https://mumbai.polygonscan.com"
+      },
+      {
+        "domainId": "2",
+        "decimals": 18,
+        "nativeTokenSymbol": "GLMR",
+        "type": "Ethereum",
+        "bridgeAddress": "0x6CAf9103c8cE3c9C347D57Aee39E8e66e43091b8",
+        "feeRouterAddress": "0x787dce8aA901E0bAF1CD191b8B4695B6dd4dcf89",
+        "erc20HandlerAddress": "0x40e273C40349dCA9062F9a3B80BAdFF000512c1F",
+        "erc721HandlerAddress": "0xF5703Fcf2bfFC33625857D8ae8994b3260AA3c1f",
+        "tokens": [
+          {
+            "address": "0xAc693E44E1EDe5f66A4e1406F65b904450932fB3",
+            "decimals": 18,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "type": "erc20",
+            "symbol": "ERC20TST",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20TST"
+          },
+          {
+            "address": "0x3690601896C289be2d894c3d1213405310D0a25C",
+            "decimals": 18,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+            "type": "erc20",
+            "symbol": "ERC20LRTest",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20LRTest"
+          },
+          {
+            "address": "0x3D151A97A446C9ea6893038e7C0db73466f3f3af",
+            "decimals": 0,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+            "type": "erc721",
+            "symbol": "ERC721TST",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC721TST"
+          }
+        ],
+        "confirmations": 5,
+        "feeHandlers": [
+          {
+            "address": "0x2AF8df30309A0c68Af6D5FD5bd5E5D2005A40fE6",
+            "type": "basic"
+          },
+          {
+            "address": "0x1C28f6A4B4F89dd87e093d86c4878c865C691F89",
+            "type": "oracle"
+          }
+        ],
+        "networkId": 1287,
+        "name": "Moonbase Alpha",
+        "rpcUrl": "https://moonbase-alpha.blastapi.io/be6f59cb-0c85-444f-b8bc-4179bd203cac",
+        "blockExplorer": "https://moonbase.moonscan.io/"
+      },
+      {
+        "domainId": "3",
+        "decimals": 18,
+        "nativeTokenSymbol": "ETH",
+        "type": "Ethereum",
+        "bridgeAddress": "0x59d52E04d4521C0e6C78310f4c4FF9167BA71d01",
+        "feeRouterAddress": "0xF9ab418D23603Ca37794eAe300F130c5d887732C",
+        "erc20HandlerAddress": "0x03896BaeA3A8CD98E46C576AF6Ceaffb69a51AFB",
+        "erc721HandlerAddress": "0x9DA05ec79e82D2441D09ddE3B616710668eA0c33",
+        "tokens": [
+          {
+            "address": "0x4cADdede58D2486e496f47c7BFfb18A7b36c4EE8",
+            "decimals": 18,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "type": "erc20",
+            "symbol": "ERC20TST",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20TST"
+          },
+          {
+            "address": "0xe34E118597BF140F1816e721fEF85F1CF1fEf990",
+            "decimals": 18,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+            "type": "erc20",
+            "symbol": "ERC20LRTest",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20LRTest"
+          },
+          {
+            "address": "0x5d51B20d31aEdeee4Db6328890b8fD04d83432e6",
+            "decimals": 0,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+            "type": "erc721",
+            "symbol": "ERC721TST",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC721TST"
+          }
+        ],
+        "confirmations": 5,
+        "feeHandlers": [
+          {
+            "address": "0xC2a1E379E2d255F42f3F8cA7Be32E3C3E1767622",
+            "type": "basic"
+          },
+          {
+            "address": "0xe495c86962DcA7208ECcF2020A273395AcE8da3e",
+            "type": "oracle"
+          }
+        ],
+        "networkId": 11155111,
+        "name": "Sepolia",
+        "rpcUrl": "https://eth-sepolia.g.alchemy.com/v2/XEdjTRcsZFKjg7Cqx7C6l5KODNZGDxuY",
+        "blockExplorer": "https://sepolia.etherscan.io/"
+      },
+      {
+        "domainId": "6",
+        "decimals": 18,
+        "nativeTokenSymbol": "ETH",
+        "type": "Ethereum",
+        "bridgeAddress": "0xeCc5790B2AD23fb02347615A6f9a89A729888c06",
+        "feeRouterAddress": "0x2692bE8dbDBDF816a1B4F67fBC6103e150bA8B23",
+        "erc20HandlerAddress": "0x17e4C404aD634E429ebCdF9a10F38A96Ce8eEF27",
+        "erc721HandlerAddress": "0xF5Ac994A5C402F4f426c2D7319C27912d5DBD7a8",
+        "tokens": [
+          {
+            "address": "0x2d5395aa622DBC7688B2eEeD3E2dC089aE0fd356",
+            "decimals": 18,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "type": "erc20",
+            "symbol": "ERC20TST",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20TST"
+          },
+          {
+            "address": "0xE366E0B707FBF59CF9A3068af34dC519D5fa6e78",
+            "decimals": 18,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+            "type": "erc20",
+            "symbol": "ERC20LRTest",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20LRTest"
+          },
+          {
+            "address": "0xCD246D40f9f91F3cFF83210F2b689c2F126a6ceC",
+            "decimals": 0,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+            "type": "erc721",
+            "symbol": "ERC721TST",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC721TST"
+          },
+          {
+            "address": "0xFC072Aa8ABB5646aFD0c22994bdE30dB57B1BF1C",
+            "decimals": 14,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
+            "type": "erc20",
+            "symbol": "ERC20TST_14D",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20TST_14D"
+          },
+          {
+            "address": "0xe3962002113d684A1Fcd7d319875d75bf483e349",
+            "decimals": 14,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+            "type": "erc20",
+            "symbol": "ERC20LRTST_14D",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20LRTST_14D"
+          },
+          {
+            "address": "0x54a323E6CAd64867c9625E479D70c80C250249CD",
+            "decimals": 20,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000900",
+            "type": "erc20",
+            "symbol": "ERC20TST_20D",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20TST_20D"
+          },
+          {
+            "address": "0x58476c75B48C86C05cCad9Ae82ac76145BC9119D",
+            "decimals": 20,
+            "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000800",
+            "type": "erc20",
+            "symbol": "ERC20LRTST_20D",
+            "feeSettings": { "type": "", "address": "" },
+            "name": "ERC20LRTST_20D"
+          }
+        ],
+        "confirmations": 5,
+        "feeHandlers": [
+          {
+            "address": "0xEE2e1fFE2F53A923902fEe87f3168741D8C56525",
+            "type": "basic"
+          },
+          {
+            "address": "0x2FfE7309168C05c3c5c1b04D9A22bCe5c1BA0136",
+            "type": "oracle"
+          }
+        ],
+        "networkId": 7701,
+        "name": "Canto Testnet",
+        "rpcUrl": "https://canto-testnet.plexnode.wtf ",
+        "blockExplorer": "https://testnet.tuber.build/"
+      }
+    ],
+    "feeOracleSetup": {
+      "feeOracleBaseUrl": "https://fee-oracle.develop.buildwithsygma.com"
+    }
+  }
+}
